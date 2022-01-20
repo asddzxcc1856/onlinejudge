@@ -1,8 +1,8 @@
-@media(min-width: 0px) {
+@media(min-width: 1px) {
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
-        font-size: 1;
+        font-size: 4px;
     }
     #td0{
         position: fixed;
@@ -15,7 +15,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1;
         text-align: center;
         position: relative;
         top: 50%;
@@ -26,7 +25,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1;
         text-align: center;
         position: relative;
         top: 50%;
@@ -38,7 +36,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1;
         text-align: center;
         position: relative;
         
@@ -243,7 +240,7 @@
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
-        font-size: 0.2px;
+        font-size: 6px;
     }
     #td0{
         position: fixed;
@@ -256,7 +253,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
         text-align: center;
         position: relative;
         top: 50%;
@@ -267,7 +263,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
         text-align: center;
         position: relative;
         top: 50%;
@@ -279,7 +274,6 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
         text-align: center;
         position: relative;
         
