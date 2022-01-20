@@ -38,7 +38,39 @@
         </td>
     </tr>
 </table>
+<div id = "code2"style="display: none; background-color: gray; position: fixed; top: 10%; left: 20%; height: 600px; width: 840px; border: solid; align-items: center; justify-content: space-between; z-index: 2;">
+    
+    <div id="code" style="background-color: white;  margin-top: 60px; margin-left: 60px;height: 80%; width: 80%; overflow:scroll; padding:5px;"></div>
+    <button type="button" onclick="document.getElementById('code2').style.display = 'none'">關閉</button>
+</div>
+<script type="text/javascript">
+    function getData() {
+        return "#include <iostream><br>usingspace std;<br><br>int main()<br>{<br><br>return 0;<br><br><br>}<br>"
+    }
+    document.getElementById('code').innerHTML = getData();
+    
+    
+</script>
 <div id = "div0">
+    <div id = "div1">
+        <div id = "div2" style=" font-size : 30px">題號</div>
+        <div id = "div3" style=" font-size : 30px">題目名稱</div>
+        <div id = "div13" style=" font-size : 30px">使用者</div>
+        <div id = "div6" style=" font-size : 30px">狀態</div>
+    </div>
+    <div id = "div1">
+        <div id = "div2"><a href="#">0002</a></div>
+        <div id = "div3"><a href="#">Hello World!!</a></div>
+        <div id = "div13"><a href="#">asddzxcc1856</a></div>
+        <div id = "div6"><button type="button" onclick="document.getElementById('code2').style.display = 'block'">
+            AC</button></div>
+    </div>
 </div>
 
+<footer>
+    Copyright © National Chung Hsing University<br>
+    版權所有 國立中興大學全球資訊網<br>
+    402 台中市南區興大路145號<br>
+    Tel : 04-22873181   聯絡我們
+</footer>
 </html>
