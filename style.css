@@ -2,7 +2,7 @@
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
-        font-size: 0.2px;
+        font-size: 1;
     }
     #td0{
         position: fixed;
@@ -15,7 +15,7 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
+        font-size: 1;
         text-align: center;
         position: relative;
         top: 50%;
@@ -26,7 +26,7 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
+        font-size: 1;
         text-align: center;
         position: relative;
         top: 50%;
@@ -38,7 +38,7 @@
         background-color: white;
         padding: 0;
         margin: 0;
-        font-size: 1px;
+        font-size: 1;
         text-align: center;
         position: relative;
         
@@ -93,7 +93,7 @@
         line-height: 6px;
         height: 160px;
         width: 168px;
-        left: 20%;
+        left: 56px;
         position: relative;
         background-color: white;
         text-align: center;
@@ -231,15 +231,15 @@
         color: gray;
     }
     #icon{
-        width: 44px;
-        height: 44px;
+        width: 10px;
+        height: 10px;
         z-index: 1;
         position: absolute;
         margin-top: 50px;
     }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 321px) {
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
@@ -334,7 +334,7 @@
         line-height: 6px;
         height: 160px;
         width: 168px;
-        left: 20%;
+        left: 56px;
         position: relative;
         background-color: white;
         text-align: center;
@@ -472,15 +472,15 @@
         color: gray;
     }
     #icon{
-        width: 44px;
-        height: 44px;
+        width: 10px;
+        height: 10px;
         z-index: 1;
         position: absolute;
         margin-top: 50px;
     }
 }
 
-@media(min-width: 920px) {
+@media(min-width: 540px) {
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
@@ -574,7 +574,7 @@
         line-height: 30px;
         height: 800px;
         width: 840px;
-        left: 20%;
+        left: 280px;
         position: relative;
         background-color: white;
         text-align: center;
@@ -712,7 +712,7 @@
         color: gray;
     }
     #icon{
-        width: 220px;
+        width: 254.5px;
         height: 220px;
         z-index: 1;
         position: absolute;
