@@ -108,7 +108,13 @@ a:active{
 }
 #div2{
     height: 50px;
-    width: 200px;
+    width: 80px;
+    position: relative;
+    float: left;
+}
+#div10{
+    height: 50px;
+    width: 120px;
     position: relative;
     float: left;
 }
