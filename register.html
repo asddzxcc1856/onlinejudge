@@ -67,26 +67,39 @@
         </div>
       </nav>
     <div class="container-fluid bg-light text-black" style="height: 1000px;max-width: 4400px; min-width: 1200px;">
-      <div id = "div0">
-        <div id = "div5">
-            <label for="email"><b>帳號</b></label>
-            <input type="text" placeholder="輸入帳號..." name="email" required>
-        
-            <label for="psw"><b>密碼</b></label>
-            <input type="password" placeholder="輸入密碼..." name="psw" required>
-        
-            <label for="psw-repeat"><b>確認密碼</b></label>
-            <input type="password" placeholder="再次輸入密碼..." name="psw-repeat" required>
-        
-            <label>
-              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> 記住密碼
-            </label>
-        
-            <div class="clearfix">
-              <button id ="button1" type="submit" class="signupbtn">註冊</button>
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card shadow-2-strong" style="border-radius: 1rem;">
+              <div class="card-body p-5 text-center">
+    
+                <h3 class="mb-5">註冊</h3>
+    
+                <div class="form-outline mb-4">
+                  <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="輸入帳號..." />
+                  <label class="form-label" for="typeEmailX-2">帳號</label>
+                </div>
+    
+                <div class="form-outline mb-4">
+                  <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="輸入密碼..." />
+                  <label class="form-label" for="typePasswordX-2">密碼</label>
+                </div>
+    
+                <div class="form-outline mb-4">
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="再次輸入密碼..." />
+                    <label class="form-label" for="typePasswordX-2">確認密碼</label>
+                  </div>
+    
+                <button class="btn btn-primary btn-lg btn-block" type="submit">註冊</button>
+    
+                <hr class="my-4">
+    
+    
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     </div>
     <footer class="text-white text-center text-lg-start" style="margin-top: 20px;max-width: 4400px; min-width: 1200px;">
         <!-- Copyright -->
