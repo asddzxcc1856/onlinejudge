@@ -8,7 +8,6 @@
     #td0{
         position: relative;
         top: 0px;
-        z-index: 9999;
     }
     /*中間介面*/
     #all0{
@@ -125,38 +124,37 @@
     }
     /*中間介面 一列一列顯示*/
     #div1{
-        height: 50px;
+        height: 60px;
+        padding: 5px;
         width: max-content;
         position: relative;
         border-bottom: solid;
-        padding-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 15px;
     }
     /*中間介面 列切割*/
     #div2{
-        height: 50px;
+        height: 60px;
         width: 80px;
         position: relative;
         float: left;
     }
     /*中間介面 列切割*/
     #div10{
-        height: 50px;
+        height: 60px;
         width: 120px;
         position: relative;
         float: left;
     }
     /*中間介面 列切割*/
     #div3{
-        height: 50px;
+        height: 60px;
         width: 300px;
         position: relative;
         float: left;
     }
     /*中間介面 列切割*/
     #div4{
-        height: 50px;
+        height: 60px;
         width: 225px;
         position: relative;
         float: left;
@@ -361,7 +359,7 @@
     /*中間介面 LOW*/
     .button-12 {
         align-items: center;
-        padding: 6px 14px;
+        padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
@@ -379,7 +377,7 @@
     /*中間介面 Medium*/
     .button-13 {
         align-items: center;
-        padding: 6px 14px;
+        padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
@@ -398,7 +396,7 @@
     /*中間介面 Hard*/
     .button-14 {
         align-items: center;
-        padding: 6px 14px;
+        padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
@@ -418,7 +416,7 @@
     .button-15 {
         float: right;
         align-items: center;
-        padding: 6px 14px;
+        padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
@@ -437,7 +435,7 @@
     /*中間介面 AC*/
     .button-16 {
         align-items: center;
-        padding: 6px 14px;
+        padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
