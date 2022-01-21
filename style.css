@@ -346,6 +346,7 @@
     /*中間介面 LOW*/
     .button-12 {
         font-size: 14px;
+        font-weight: bold;
         align-items: center;
         padding: 3px 4px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
@@ -364,6 +365,8 @@
     }
     /*中間介面 Medium*/
     .button-13 {
+        font-size: 14px;
+        font-weight: bold;
         align-items: center;
         padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
@@ -383,6 +386,8 @@
     }
     /*中間介面 Hard*/
     .button-14 {
+        font-size: 14px;
+        font-weight: bold;
         align-items: center;
         padding: 6px 7px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
@@ -402,6 +407,8 @@
     }
     /*中間介面 關閉*/
     .button-15 {
+        font-size: 14px;
+        font-weight: bold;
         float: right;
         align-items: center;
         padding: 6px 7px;
