@@ -1,22 +1,27 @@
 @media(min-width: 0px) {
+    /*整體*/
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
         font-size: 20px;
     }
+    /*上面列表*/
     #td0{
         position: relative;
         top: 0px;
         z-index: 9999;
     }
+    /*中間介面*/
     #all0{
         width: 1390px;
         height: 1060px;
         position: absolute
     }
+    /*文字字體控制*/
     #h1{
         font-size: 20px;
     }
+    /*NCHU Online Judge*/
     #td11{
         width: 250px;
         height: 50px;
@@ -28,6 +33,7 @@
         position: relative;
         top: 50%;
     }
+    /*上面列表 註冊 登入*/
     #td12{
         width: 120px;
         height: 50px;
@@ -39,6 +45,7 @@
         position: relative;
         top: 50%;
     }
+    /*上面列表 個人資料 主頁 ....*/
     #td1{
         width: 150px;
         height: 50px;
@@ -51,16 +58,19 @@
         position: relative;
         
     }
+    /*上面列表 個人資料 主頁 [滑動變色]....*/
     #td1:hover {
         color: gray;
         animation-name: example;
         animation-duration: 4s;
     }
+    /*上面列表 個人資料 主頁 [滑動變色]....*/
     @keyframes example{
         0% {border-color: gray;}
         50%{border-color: green;}
         75%{border-color: yellow;}
     }
+    /*中間介面 淡出*/
     @keyframes example2{
         0% {opacity: 0;}
         50% {opacity: 1;}
@@ -85,16 +95,20 @@
         display: block;
         
     }
+    /*超連結顏色*/
     a{
         text-decoration: none;
         color: gray;
     }
+    /*超連結滑動變色*/
     a:hover{
         color: green;
     }
+    /*超連結點擊變色*/
     a:active{
         color: palevioletred;
     }
+    /*中間介面all*/
     #div0{
         word-wrap: break-word;
         word-break: break-all;
@@ -110,6 +124,7 @@
         animation: example2 6s ease;
         float: left;
     }
+    /*中間介面 一列一列顯示*/
     #div1{
         height: 50px;
         width: max-content;
@@ -119,30 +134,35 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+    /*中間介面 列切割*/
     #div2{
         height: 50px;
         width: 80px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div10{
         height: 50px;
         width: 120px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div3{
         height: 50px;
         width: 300px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div4{
         height: 50px;
         width: 225px;
         position: relative;
         float: left;
     }
+    /*中間介面 註冊 登入*/
     #div5{
         height: 400px;
         width: 400px;
@@ -150,12 +170,14 @@
         top: 200px;
         left: 220px;
     }
+    /*中間介面 列切割*/
     #div6{
         height: 50px;
         width: 75px;
         position: relative;
         float: left;
     }
+    /*中間介面 index頁面*/
     #div7{
         height: 800px;
         width: 600px;
@@ -163,18 +185,23 @@
         float: left;
         border-right: solid gray;
     }
+    /*中間介面 index頁面top10*/
     #div8{
         height: 800px;
         width: 200px;
         position: relative;
         float: left;
     }
+    /*中間介面 index頁面top10人名*/
     #div8_2{
-        height: 50px;
+        height: 30px;
         width: 200px;
         position: relative;
         float: left;
+        border-bottom: solid #04AA6D 0.5px;
+        z-index: 3;
     }
+    /*中間介面 列切割*/
     #div9{
         height: 50px;
         width: 840px;
@@ -182,6 +209,7 @@
         float: left;
         text-align: center;
     }
+    /*中間介面 personel 照片*/
     #div11{
         height: 320px;
         width: 218px;
@@ -192,6 +220,7 @@
         margin-left: 20px;
         border-right: solid 1px;
     }
+    /*中間介面 personel 資料*/
     #div12{
         height: 60px;
         width: 600px;
@@ -201,18 +230,21 @@
         margin-top: 40px;
         border-bottom: solid;
     }
+    /*中間介面 列切割*/
     #div13{
         height: 50px;
         width: 345px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div14{
         height: 50px;
         width: 420px;
         position: relative;
         float: left;
     }
+    /*中間介面 帳號 密碼*/
     input[type=text], input[type=password] {
         width: 100%;
         padding: 12px 20px;
@@ -221,6 +253,7 @@
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
+    /*中間介面 登入註冊提交按鈕*/
     #button1 {
         background-color: #04AA6D;
         color: white;
@@ -230,6 +263,7 @@
         cursor: pointer;
         width: 100%;
     }
+    /*中間介面 底部*/
     footer{
         background-color: whitesmoke;
         margin-top: 30px;
@@ -241,14 +275,16 @@
         position: relative;
         float: left;
     }
+    /*中間介面 標誌*/
     #icon{
         width: 254.5px;
         height: 220px;
         z-index: 1;
-        position: relative;
+        position: absolute;
         float: left;
         margin-top: 50px;
     }
+    /*中間介面 跳脫視窗*/
     #code2{
         display: none; 
         background-color: gray; 
@@ -259,9 +295,10 @@
         width: 840px; 
         border: solid; 
         align-items: center; 
-        justify-content: space-between; 
-        z-index: 2;
+        justify-content: 
+        space-between; z-index: 2;
     }
+    /*中間介面 跳脫視窗內部*/
     #code{
         background-color: white;  
         margin-top: 60px; 
@@ -271,6 +308,7 @@
         overflow:scroll; 
         padding:5px;
     }
+    /*中間介面 LOW*/
     .button-12 {
         align-items: center;
         padding: 6px 14px;
@@ -284,11 +322,11 @@
         -webkit-user-select: none;
         touch-action: manipulation;
     }   
-
     .button-12:focus{
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 Medium*/
     .button-13 {
         align-items: center;
         padding: 6px 14px;
@@ -307,6 +345,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 Hard*/
     .button-14 {
         align-items: center;
         padding: 6px 14px;
@@ -325,6 +364,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 關閉*/
     .button-15 {
         float: right;
         align-items: center;
@@ -344,6 +384,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 AC*/
     .button-16 {
         align-items: center;
         padding: 6px 14px;
@@ -366,24 +407,29 @@
     }
 }
 @media(min-width: 321px) {
+    /*整體*/
     body{
         background-color: rgb(230, 225, 225);
         font-family: sans-serif;
         font-size: 20px;
     }
+    /*上面列表*/
     #td0{
         position: relative;
         top: 0px;
         z-index: 9999;
     }
+    /*中間介面*/
     #all0{
         width: 1390px;
         height: 1060px;
         position: absolute
     }
+    /*文字字體控制*/
     #h1{
         font-size: 20px;
     }
+    /*NCHU Online Judge*/
     #td11{
         width: 250px;
         height: 50px;
@@ -395,6 +441,7 @@
         position: relative;
         top: 50%;
     }
+    /*上面列表 註冊 登入*/
     #td12{
         width: 120px;
         height: 50px;
@@ -406,6 +453,7 @@
         position: relative;
         top: 50%;
     }
+    /*上面列表 個人資料 主頁 ....*/
     #td1{
         width: 150px;
         height: 50px;
@@ -418,16 +466,19 @@
         position: relative;
         
     }
+    /*上面列表 個人資料 主頁 [滑動變色]....*/
     #td1:hover {
         color: gray;
         animation-name: example;
         animation-duration: 4s;
     }
+    /*上面列表 個人資料 主頁 [滑動變色]....*/
     @keyframes example{
         0% {border-color: gray;}
         50%{border-color: green;}
         75%{border-color: yellow;}
     }
+    /*中間介面 淡出*/
     @keyframes example2{
         0% {opacity: 0;}
         50% {opacity: 1;}
@@ -452,16 +503,20 @@
         display: block;
         
     }
+    /*超連結顏色*/
     a{
         text-decoration: none;
         color: gray;
     }
+    /*超連結滑動變色*/
     a:hover{
         color: green;
     }
+    /*超連結點擊變色*/
     a:active{
         color: palevioletred;
     }
+    /*中間介面all*/
     #div0{
         word-wrap: break-word;
         word-break: break-all;
@@ -477,6 +532,7 @@
         animation: example2 6s ease;
         float: left;
     }
+    /*中間介面 一列一列顯示*/
     #div1{
         height: 50px;
         width: max-content;
@@ -486,30 +542,35 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+    /*中間介面 列切割*/
     #div2{
         height: 50px;
         width: 80px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div10{
         height: 50px;
         width: 120px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div3{
         height: 50px;
         width: 300px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div4{
         height: 50px;
         width: 225px;
         position: relative;
         float: left;
     }
+    /*中間介面 註冊 登入*/
     #div5{
         height: 400px;
         width: 400px;
@@ -517,12 +578,14 @@
         top: 200px;
         left: 220px;
     }
+    /*中間介面 列切割*/
     #div6{
         height: 50px;
         width: 75px;
         position: relative;
         float: left;
     }
+    /*中間介面 index頁面*/
     #div7{
         height: 800px;
         width: 600px;
@@ -530,12 +593,14 @@
         float: left;
         border-right: solid gray;
     }
+    /*中間介面 index頁面top10*/
     #div8{
         height: 800px;
         width: 200px;
         position: relative;
         float: left;
     }
+    /*中間介面 index頁面top10人名*/
     #div8_2{
         height: 30px;
         width: 200px;
@@ -544,6 +609,7 @@
         border-bottom: solid #04AA6D 0.5px;
         z-index: 3;
     }
+    /*中間介面 列切割*/
     #div9{
         height: 50px;
         width: 840px;
@@ -551,6 +617,7 @@
         float: left;
         text-align: center;
     }
+    /*中間介面 personel 照片*/
     #div11{
         height: 320px;
         width: 218px;
@@ -561,6 +628,7 @@
         margin-left: 20px;
         border-right: solid 1px;
     }
+    /*中間介面 personel 資料*/
     #div12{
         height: 60px;
         width: 600px;
@@ -570,18 +638,21 @@
         margin-top: 40px;
         border-bottom: solid;
     }
+    /*中間介面 列切割*/
     #div13{
         height: 50px;
         width: 345px;
         position: relative;
         float: left;
     }
+    /*中間介面 列切割*/
     #div14{
         height: 50px;
         width: 420px;
         position: relative;
         float: left;
     }
+    /*中間介面 帳號 密碼*/
     input[type=text], input[type=password] {
         width: 100%;
         padding: 12px 20px;
@@ -590,6 +661,7 @@
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
+    /*中間介面 登入註冊提交按鈕*/
     #button1 {
         background-color: #04AA6D;
         color: white;
@@ -599,6 +671,7 @@
         cursor: pointer;
         width: 100%;
     }
+    /*中間介面 底部*/
     footer{
         background-color: whitesmoke;
         margin-top: 30px;
@@ -610,6 +683,7 @@
         position: relative;
         float: left;
     }
+    /*中間介面 標誌*/
     #icon{
         width: 254.5px;
         height: 220px;
@@ -618,6 +692,7 @@
         float: left;
         margin-top: 50px;
     }
+    /*中間介面 跳脫視窗*/
     #code2{
         display: none; 
         background-color: gray; 
@@ -631,6 +706,7 @@
         justify-content: 
         space-between; z-index: 2;
     }
+    /*中間介面 跳脫視窗內部*/
     #code{
         background-color: white;  
         margin-top: 60px; 
@@ -640,6 +716,7 @@
         overflow:scroll; 
         padding:5px;
     }
+    /*中間介面 LOW*/
     .button-12 {
         align-items: center;
         padding: 6px 14px;
@@ -653,11 +730,11 @@
         -webkit-user-select: none;
         touch-action: manipulation;
     }   
-
     .button-12:focus{
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 Medium*/
     .button-13 {
         align-items: center;
         padding: 6px 14px;
@@ -676,6 +753,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 Hard*/
     .button-14 {
         align-items: center;
         padding: 6px 14px;
@@ -694,6 +772,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 關閉*/
     .button-15 {
         float: right;
         align-items: center;
@@ -713,6 +792,7 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
+    /*中間介面 AC*/
     .button-16 {
         align-items: center;
         padding: 6px 14px;
