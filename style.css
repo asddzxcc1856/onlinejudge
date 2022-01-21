@@ -357,8 +357,9 @@
     }
     /*中間介面 LOW*/
     .button-12 {
+        font-size: 4px;
         align-items: center;
-        padding: 6px 7px;
+        padding: 1px 2px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
@@ -433,8 +434,9 @@
     }
     /*中間介面 AC*/
     .button-16 {
+        font-size: 2px;
         align-items: center;
-        padding: 6px 7px;
+        padding: 3px 4px;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
         border-radius: 6px;
         border: none;
