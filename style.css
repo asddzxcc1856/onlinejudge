@@ -295,8 +295,8 @@
         width: 840px; 
         border: solid; 
         align-items: center; 
-        justify-content: 
-        space-between; z-index: 2;
+        justify-content: space-between;
+        z-index: 2;
     }
     /*中間介面 跳脫視窗內部*/
     #code{
@@ -652,6 +652,57 @@
         position: relative;
         float: left;
     }
+    #div15{
+        height: 400px;
+        width: 800px;
+        margin-left: 18px;
+        margin-top: 20px;
+        position: relative;
+        float: left;
+        border: solid;
+        overflow:auto;
+        text-align: left;
+    }
+    #div15_2{
+        height: 60px;
+        width: 800px;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        overflow:auto;
+        text-align: left;
+    }
+    #div16{
+        height: 200px;
+        width: 380px;
+        margin-left: 18px;
+        margin-top: 20px;
+        position: relative;
+        float: left;
+        border: solid;
+        overflow:auto;
+        text-align: left;
+    }
+    #div16_2{
+        height: 200px;
+        width: 380px;
+        margin-right: 18px;
+        margin-top: 20px;
+        position: relative;
+        float: right;
+        border: solid;
+        overflow:auto;
+        text-align: left;
+    }
+    #div15_3{
+        height: 60px;
+        width: 380px;
+        background-color: #ccc;
+        position: relative;
+        float: left;
+        overflow:auto;
+        text-align: left;
+    }
     /*中間介面 帳號 密碼*/
     input[type=text], input[type=password] {
         width: 100%;
@@ -703,8 +754,8 @@
         width: 840px; 
         border: solid; 
         align-items: center; 
-        justify-content: 
-        space-between; z-index: 2;
+        justify-content: space-between; 
+        z-index: 2;
     }
     /*中間介面 跳脫視窗內部*/
     #code{
