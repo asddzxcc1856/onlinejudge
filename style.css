@@ -252,15 +252,15 @@
     #code2{
         display: none; 
         background-color: gray; 
-        position: fixed; 
+        position: absolute; 
         top: 120px; 
         left: 280px; 
         height: 600px; 
         width: 840px; 
         border: solid; 
         align-items: center; 
-        justify-content: 
-        space-between; z-index: 2;
+        justify-content: space-between; 
+        z-index: 2;
     }
     #code{
         background-color: white;  
@@ -519,7 +519,7 @@
         width: 254.5px;
         height: 220px;
         z-index: 1;
-        position: relative;
+        position: absolute;
         float: left;
         margin-top: 50px;
     }
