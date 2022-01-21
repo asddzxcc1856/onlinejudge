@@ -505,8 +505,8 @@
         display: none; 
         background-color: gray; 
         position: fixed; 
-        top: 10%; 
-        left: 20%; 
+        top: 120px; 
+        left: 280px; 
         height: 600px; 
         width: 840px; 
         border: solid; 
