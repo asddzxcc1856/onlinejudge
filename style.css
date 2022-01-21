@@ -696,7 +696,7 @@
     #code2{
         display: none; 
         background-color: gray; 
-        position: fixed; 
+        position: absolute; 
         top: 120px; 
         left: 280px; 
         height: 600px; 
