@@ -452,4 +452,22 @@
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
         outline: 0;
     }
-
+    .rowtop{
+        margin-top: 80px;
+    }
+    .rowline{
+        margin-top: 10px;
+    }
+    .row-cols-6{
+        text-align: center;
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(248, 242, 242, 0.9);
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(252, 246, 246, 0.55);
+        border-color: rgba(243, 239, 239, 0.89);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
