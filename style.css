@@ -537,10 +537,12 @@
         float: left;
     }
     #div8_2{
-        height: 50px;
+        height: 30px;
         width: 200px;
         position: relative;
         float: left;
+        border-bottom: solid #04AA6D 0.5px;
+        z-index: 3;
     }
     #div9{
         height: 50px;
