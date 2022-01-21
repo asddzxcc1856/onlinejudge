@@ -249,6 +249,28 @@
         float: left;
         margin-top: 50px;
     }
+    #code2{
+        display: none; 
+        background-color: gray; 
+        position: fixed; 
+        top: 120px; 
+        left: 280px; 
+        height: 600px; 
+        width: 840px; 
+        border: solid; 
+        align-items: center; 
+        justify-content: 
+        space-between; z-index: 2;
+    }
+    #code{
+        background-color: white;  
+        margin-top: 60px; 
+        margin-left: 60px;
+        height: 80%; 
+        width: 80%; 
+        overflow:scroll; 
+        padding:5px;
+    }
 }
 @media(min-width: 321px) {
     body{
