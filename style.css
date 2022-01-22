@@ -473,3 +473,7 @@
     .navbar-light a:hover.navbar-brand {
         color: rgba(248, 242, 242, 0.9);
     }
+    .carousel-item > img{
+        width: 80%;
+        margin: auto;
+    }
