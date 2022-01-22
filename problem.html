@@ -63,15 +63,57 @@
         </div>
       </nav>
     <div class="container-fluid bg-light text-black" style="min-height: 60vmin;min-width: 300px;">
-        <div class="overflow-scroll rowtop" style="width: 100% ;height: 60vmin;">
+        <div class="overflow-auto rowtop" style="width: 100% ;height: 60vmin;">
           <div class="fw-bolder bg-secondary w-100 border border-5 border-dark">題目說明:</div>
-            題目很簡單請輸出 "Hellow World"
-            <br>
-            <br>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <br>
-            <br><br><br><br><br><br><br><br><br><br>
+            題目很簡單請輸出 "Hello World"<br/>
+            <code class="text-start">
+            範例程式碼:<br/>
+            #include &lt;stdio.h&gt;<br/>
+            #include &lt;stdlib.h&gt;<br/>
+            <br/>
+            int main(void)<br/>
+            {<br/>
+              &emsp;&emsp;&emsp;return 0;<br/>
+            }<br/>
+          </code>
+          <div class="overflow-auto w-100">
+            <div class="fw-bolder bg-secondary w-100 border border-5 border-dark">範例輸入:</div>
+            無
+          </div>
+          <div class="overflow-auto w-100">
+            <div class="fw-bolder bg-secondary w-100 border border-5 border-dark">範例輸出:</div>
+            Hello World
+          </div>
         </div>
+    </div>
+    <nav class = "container-fluid" aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <button type="button" class="btn btn-secondary fw-bolder" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">提交</button>
+        </li>
+      </ul>
+     </nav>
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">上傳程式碼</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">程式碼</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+            <button type="button" class="btn btn-primary">送出</button>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="text-white text-center text-lg-start" style="margin-top: 20px;min-width: 300px;">
         <!-- Copyright -->
