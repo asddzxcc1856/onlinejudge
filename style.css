@@ -346,9 +346,9 @@
     .button-12 {
         font-weight: bold;
         align-items: center;
-        padding: 0.1vmin 0.1vmin;
+        padding: 1vmin 1vmin;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 2vmin;
+        border-radius: 3vmin;
         border: none;
         background: #6E6D70;
         box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -356,7 +356,7 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        font-size: 1vmin;
+        font-size: 2vmin;
     }   
     .button-12:focus{
         box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
@@ -366,9 +366,9 @@
     .button-13 {
         font-weight: bold;
         align-items: center;
-        padding: 0.1vmin 0.1vmin;
+        padding: 1vmin 1vmin;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 2vmin;
+        border-radius: 3vmin;
         border: none;
         background: #d1813f;
         box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -376,7 +376,7 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        font-size: 1vmin;
+        font-size: 2vmin;
     }   
 
     .button-13:focus{
@@ -387,9 +387,9 @@
     .button-14 {
         font-weight: bold;
         align-items: center;
-        padding: 0.1vmin 0.1vmin;
+        padding: 1vmin 1vmin;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 2vmin;
+        border-radius: 3vmin;
         border: none;
         background: #a71b08;
         box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -397,7 +397,7 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        font-size: 1vmin;
+        font-size: 2vmin;
     }   
 
     .button-14:focus{
@@ -409,9 +409,9 @@
         font-weight: bold;
         float: right;
         align-items: center;
-        padding: 0.1vmin 0.1vmin;
+        padding: 1vmin 1vmin;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 2vmin;
+        border-radius: 3vmin;
         border: none;
         background: #a71b08;
         box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -419,7 +419,7 @@
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
-        font-size: 1vmin;
+        font-size: 2vmin;
     }   
 
     .button-15:focus{
@@ -430,9 +430,9 @@
     .button-16 {
         
         align-items: center;
-        padding: 0.1vmin 0.1vmin;
+        padding: 1vmin 1vmin;
         font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
-        border-radius: 2vmin;
+        border-radius: 3vmin;
         border: none;
         background: #757774;
         box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
@@ -441,7 +441,7 @@
         -webkit-user-select: none;
         touch-action: manipulation;
         font-weight: bold;
-        font-size: 1vmin;
+        font-size: 2vmin;
     }   
 
     .button-16:focus{
